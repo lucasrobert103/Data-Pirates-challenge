@@ -5,6 +5,7 @@ Python scraping code to gather data from website and export the results to JSONL
 With this program, you can gather all the table information from the brazilian postal codes, and export it to a JSONL file. You can check the website [BuscaCep.Correios](http://www.buscacep.correios.com.br/sistemas/buscacep/buscaFaixaCep.cfm) before we get into the code.
 
 ## Installation
+git clone https://github.com/lucasrobert103/Data-Pirates-challenge.git
 Make sure you have installed [Python 3](https://www.python.org/downloads/) in your machine.
 I have provided the third-party modules necessary to run the code. Please, download [requirements.txt](https://github.com/lucasrobert103/Data-Pirates-challenge/blob/main/Data-Pirates-Challenge/requirements.txt) and install each one of them. Those modules can be installed as follows:
 - in Windows, open the Command Prompt (cmd), type '**pip install /path/to/requirements.txt**'
@@ -38,7 +39,7 @@ There are two files in the [project](https://github.com/lucasrobert103/Data-Pira
 I wrote the code in Windows. Therefore, the shebang line (first line of the code) tells my computer run Python 3 in my operating system Windows. If you use another OS, Linux or OS X, please change that first line to the one which fits you. Please visit [Automate the Stuff with Python Programming](https://automatetheboringstuff.com/appendixb/) for further explanation.
 thanks for this opportunity by: Lucas Robert
 
-Em Português
+## Em Português
 
 DataPirates-Challenge
 Python scraping code para coletar dados do site e exportar os resultados para o arquivo JSONL
